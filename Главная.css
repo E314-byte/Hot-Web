@@ -22,7 +22,6 @@
  
  .section-1 .text-1 {
      letter-spacing: normal;
-     font-family: Barlow;
      font-weight: 700;
      font-size: 3rem;
      text-transform: none;
@@ -205,8 +204,8 @@
  }
  
  .section-2 .icon-2 {
-     height: 48px;
-     width: 48px;
+     height: 150px;
+     width: 150px;
      margin: 0 auto;
  }
  
@@ -406,7 +405,6 @@
      font-weight: 700;
      text-transform: uppercase;
      letter-spacing: 2px;
-     margin: 0 154px 0 0;
  }
  
  .section-3 .text-4 {
@@ -432,7 +430,6 @@
      font-weight: 700;
      text-transform: uppercase;
      letter-spacing: 2px;
-     margin: 0 106px 0 0;
  }
  
  .section-3 .text-6 {
@@ -1690,4 +1687,113 @@
          margin-left: 0;
          margin-right: 0;
      }
+ }
+ 
+ .form1 {
+     margin: 150px;
+ }
+ 
+ .e {
+     display: flex;
+     justify-content: center;
+     /* text-align: center; */
+ }
+ 
+ .d {
+     display: flex;
+     gap: 100px;
+     align-items: flex-end;
+     /* flex-direction: row;
+     justify-content: center;
+     align-content: center;
+     flex-wrap: nowrap; */
+ }
+ 
+ .input {
+     width: 358px;
+     height: 56px;
+     background: #FFFFFF;
+     box-shadow: inset 4px 4px 10px rgba(0, 0, 0, 0.5);
+     border-radius: 4px;
+     flex: none;
+     order: 1;
+     flex-grow: 0;
+ }
+ 
+ .buy {
+     color: #fff;
+     background: #3B065E;
+     border-radius: 5px;
+     width: 279px;
+     height: 56px;
+     cursor: pointer;
+ }
+ /* .mmap {
+     display: flex;
+ }
+  */
+ 
+ .yandex-map {
+     /* z-index: 1000; */
+     min-width: 100%;
+     min-height: 840px;
+ }
+ 
+ .office {
+     z-index: 100000000;
+     display: flex;
+     min-width: 550px;
+     min-height: 261px;
+     padding: 30px;
+     line-height: 2.5em;
+     /* opacity: 0.8; */
+     flex-direction: column;
+     align-items: flex-start;
+     background-color: #fff;
+     color: #000;
+     position: absolute;
+     top: 120px;
+     left: 50px;
+ }
+ /*  
+ .office:hover {
+     opacity: 1;
+     transition: 1s;    
+ } */
+ 
+ @media (max-width: 1440px) {
+     .form1 {
+         margin: 100px;
+     }
+     .d {
+         gap: 50px;
+     }
+ }
+ 
+ @media (max-width: 1200px) {
+     .form1 {
+         margin: 50px;
+     }
+ }
+ 
+ @media (max-width: 1024px) {
+     .input {
+         width: 250px;
+     }
+     .buy {
+         width: 200px;
+     }
+ }
+ 
+ .f {
+     padding: 40px;
+ }
+ 
+ .social-networks {
+     display: inline;
+     gap: 20px;
+     min-width: 10px;
+     min-height: 10px;
+     max-width: 40px;
+     max-height: 40px;
  }
