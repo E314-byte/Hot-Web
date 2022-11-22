@@ -1728,13 +1728,13 @@
      height: 56px;
      cursor: pointer;
  }
- /* .mmap {
+ 
+ .mmap {
      display: flex;
  }
-  */
  
  .yandex-map {
-     /* z-index: 1000; */
+     z-index: 1000;
      min-width: 100%;
      min-height: 840px;
  }
@@ -1839,4 +1839,12 @@
  .wwe {
      max-width: 150px;
      max-height: 150px;
+ }
+ 
+ .k {
+     background-color: none;
+     color: none;
+     z-index: 1000000;
+     min-width: 100%;
+     min-height: 840px;
  }
