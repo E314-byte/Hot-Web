@@ -1,8 +1,8 @@
 window.onload = function() {
-    let preloader = document.getElementById('page_preloader');
-    preloader.style.display = 'none';
-}
-
+        let preloader = document.getElementById('page_preloader');
+        preloader.style.display = 'none';
+    }
+    // мда
 
 
 // var preloader = document.getElementById('page_preloader');
