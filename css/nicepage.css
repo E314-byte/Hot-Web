@@ -7861,6 +7861,7 @@ section.image:not(.hover-box),
     .xl-mode .valign-bottom-xl {
         display: flex;
         flex-direction: column;
+        align-items: flex-end;
     }
 }
 
@@ -16151,9 +16152,10 @@ div.video,
     display: table;
 }
 
-.menu {
+
+/* .menu {
     opacity: 0;
-}
+} */
 
 .responsive-xxl .menu,
 .responsive-xl .menu,

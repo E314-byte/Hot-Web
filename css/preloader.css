@@ -12,11 +12,6 @@
     visibility: visible;
 }
 
-.done {
-    opacity: 0;
-    visibility: hidden;
-}
-
 .loader {
     z-index: 10000000000000000000;
     width: 75px;
