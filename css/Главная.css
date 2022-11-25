@@ -1686,17 +1686,44 @@
      }
  }
  
+ .header {
+     position: fixed;
+     display: flex;
+     width: 100%;
+     padding: 10px;
+     z-index: 1000000000;
+     transition: 0.175s ease-in-out;
+     flex-direction: row;
+     flex-wrap: nowrap;
+     justify-content: space-around;
+     align-items: center;
+ }
+ 
+ .menu:active {
+     color: #478AC2;
+ }
+ 
+ .container-layout-1 {
+     background-color: #7F7EFF;
+ }
+ 
+ .container-layout-2 {
+     background-color: #A390E4;
+ }
+ 
+ .container-layout-3 {
+     background-color: #C69DD2;
+ }
+ 
+ .container-layout-4 {
+     background-color: #CC8B8C;
+ }
+ 
  .courses {
      display: flex;
      flex-direction: column;
      align-items: flex-start;
      margin: 150px 150px 150px 350px;
- }
- 
- .e {
-     display: flex;
-     justify-content: center;
-     /* text-align: center; */
  }
  
  .input_fields {
@@ -1836,6 +1863,7 @@
      justify-content: space-between;
      flex-direction: row;
      padding: 20px;
+     color: #fff;
  }
  
  .content-1,
@@ -1857,5 +1885,12 @@
      .kek {
          max-width: 350px;
          max-height: 250px;
+     }
+     .menu {
+         display: none;
+     }
+     .header {
+         position: relative;
+         justify-content: flex-start;
      }
  }

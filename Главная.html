@@ -6,10 +6,12 @@
     <meta charset="utf-8">
     <meta name="description" content="">
     <title>Главная</title>
-    <link rel="stylesheet" href="css/nicepage.css" media="screen">
+    <link rel="stylesheet" href="css/rules.css" media="screen">
     <link rel="stylesheet" href="css/Главная.css" media="screen">
     <link rel="stylesheet" href="css/preloader.css" media="screen">
     <script src="js/preloader.js"></script>
+    <script src="js/phone.js"></script>
+    <script class="script" type="text/javascript" src="jquery.js" defer=""></script>
     <link id="theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
     <link id="page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Barlow:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
 </head>
@@ -20,12 +22,12 @@
         <div class="loader"></div>
     </div>
 
-    <header class="clearfix header" id="sec-b80c">
-        <div class="clearfix sheet valign-middle sheet-1">
-            <a href="Главная.html" class="image logo image-1">
+    <header class="clearfix" id="sec-b80c" id="header">
+        <div class="header">
+            <a href="Главная.html" class="image logo">
                 <img src="images/logo/logo.svg" class="logo-image logo-image-1">
             </a>
-            <!-- <nav class="menu men dropdown offcanvas men-1">
+            <nav class="menu men dropdown offcanvas">
                 <div class="nav-container">
 
                     <ul class="nav unstyled nav-1">
@@ -37,7 +39,7 @@
                         </li>
                     </ul>
                 </div>
-            </nav> -->
+            </nav>
         </div>
     </header>
     <section class="align-left clearfix image section-1" id="carousel_2676">
@@ -46,13 +48,13 @@
                 <div class="gutter-0 layout">
                     <div class="layout-row">
                         <div class="align-left container-style layout-cell left-cell shape-rectangle size-27 layout-cell-1">
-                            <div class="container-layout valign-middle container-layout-1">
+                            <div class="container-layout valign-middle">
                                 <h1 class="custom-font text text-body-alt-color text-1">Веб-разработчик с нуля</h1>
-                                <p class="text text-body-alt-color text-2">Освойте HTML, CSS, JavaScript, Дизайн , а так же веб-аналитике, чтобы создавать веб-сайты</p>
+                                <p class="text text-body-alt-color text-2" style="color:#fff">Освойте HTML, CSS, JavaScript, Дизайн&nbsp;, а так же веб-аналитике, чтобы создавать веб-сайты</p>
                             </div>
                         </div>
                         <div class="align-left container-style image layout-cell right-cell size-33 image-1" data-image-width="1372" data-image-height="1235">
-                            <div class="container-layout valign-bottom container-layout-2"><img src="images/ffffff.jpg" /></div>
+                            <div class="container-layout valign-bottom"><img src="images/ffffff.jpg" /></div>
                         </div>
                     </div>
                 </div>
@@ -101,7 +103,7 @@
                 <div class="layout">
                     <div class="layout-row">
                         <div class="container-style layout-cell size-60 layout-cell-1">
-                            <div class="container-layout container-layout-1">
+                            <div class="container-layout ">
                                 <h2 class="text text-1">Кому подойдёт этот курс</h2>
                                 <img src="images/ssssss.jpg" class="expanded-width image image-default image-1" data-image-width="1080" data-image-height="735">
                             </div>
@@ -110,16 +112,16 @@
                 </div>
             </div>
             <div class="list list-1">
-                <div class="repeater repeater-1">
+                <div class="repeater repeater-1" style="padding-left: 40px;">
                     <div class="container-style list-item repeater-item">
-                        <div class="container-layout similar-container valign-top container-layout-2">
-                            <h3 class="text text-3">01. Новичкам в веб-разработке</h3>
+                        <div class="container-layout similar-container valign-top">
+                            <h3 class="text text-3">01. Новичкам в веб&nbsp;-&nbsp;разработке</h3>
                             <p class="text text-4"> Вы с нуля изучите основы программирования, научитесь верстать сайты и создадите первые проекты для портфолио.</p>
                         </div>
                     </div>
                     <div class="container-style list-item repeater-item">
-                        <div class="container-layout similar-container valign-top container-layout-3">
-                            <h3 class="text text-5">02. IT-специалистам</h3>
+                        <div class="container-layout similar-container valign-top">
+                            <h3 class="text text-5">02. IT&nbsp;-&nbsp;специалистам</h3>
                             <p class="text text-6">Вы сможете создавать проекты на JavaScript, программировать и верстать. Научитесь основам менеджмента и работе в команде по методике Scrum.</p>
                             <span class="text-body-alt-color"></span>
                         </div>
@@ -128,13 +130,11 @@
             </div>
         </div>
     </section>
-    <section class="align-center-xs clearfix section-4" src="" id="carousel_b618">
-        <!-- <img class="expanded-width-md image image-contain image-1 kek" src="images/Untitled-1-min.jpg"> -->
+    <section class="align-center-xs clearfix section-4" id="carousel_b618">
         <div class="clearfix sheet valign-middle-xl sheet-1">
             <img class="expanded-width-md image image-contain image-1 kek" src="images/Untitled-1-min.jpg">
             <div class="align-center-md align-center-sm align-center-xs border-no-bottom border-no-left border-no-right border-no-top container-style expanded-width-md expanded-width-sm expanded-width-xs group shape-rectangle group-1">
-                <!-- <img class="expanded-width-md image image-contain image-1 kek" src="images/Untitled-1-min.jpg"> -->
-                <div class="container-layout valign-middle container-layout-1">
+                <div class="container-layout valign-middle">
                     <h1 class="text text-palette-1-base text-1">Как проходит обучение на платформе</h1>
                     <p class="large-text text text-variant text-2">Онлайн-обучение может проходить в виде курсов, видеоуроков, вебинаров и тренингов.</p>
                 </div>
@@ -145,26 +145,26 @@
         <div class="clearfix sheet valign-middle-md valign-middle-sm valign-middle-xl valign-middle-xs sheet-1">
             <img class="expanded-width-md expanded-width-sm expanded-width-xs image image-contain image-1" src="images/image-PhotoRoom (1) 1.png" data-image-width="1200" data-image-height="800">
             <div class="align-center-md align-center-sm align-center-xs align-right-lg align-right-xl border-no-bottom border-no-left border-no-right border-no-top container-style expanded-width-md expanded-width-sm expanded-width-xs group shape-rectangle group-1">
-                <div class="container-layout valign-middle container-layout-1">
+                <div class="container-layout valign-middle">
                     <h1 class="text text-palette-1-base text-1">Веб-аналитика</h1>
-                    <p class="large-text text text-variant text-2">С нуля научитесь настраивать систему аналитики, визуализировать данные и строить отчёты Пройдёте онлайн-стажировку у партнёров Нетологии и сможете претендовать на позицию младшего веб-аналитика спустя 5 месяцев обучения</p>
+                    <p class="large-text text text-variant text-2" style="color:#fff">С нуля научитесь настраивать систему аналитики, визуализировать данные и строить отчёты Пройдёте онлайн-стажировку у партнёров Нетологии и сможете претендовать на позицию младшего веб-аналитика спустя 5 месяцев обучения</p>
                 </div>
             </div>
         </div>
     </section>
     <section class="align-center-xs clearfix section-8">
-        <form class="courses">
+        <form id="form" class="courses">
             <div>
-                <h1 style="color:#468AC9">Запишитесь на курсы</h1>
+                <h1 class="text-1">Запишитесь на курсы</h1>
             </div>
             <div class="input_fields">
                 <div>
                     <h6>Номер телефона<span style="color: red;">*</span></h6>
-                    <input class="input" placeholder="Номер телефона" />
+                    <input id="phone" class="input" placeholder="Номер телефона" name="phone" minlength="11" maxlength="17" type="text" required/>
                 </div>
                 <div>
                     <h6>Электронная почта<span style="color: red;">*</span></h6>
-                    <input class="input" placeholder="Электронная почта" />
+                    <input class="input" placeholder="Электронная почта" name="email" type="email" required/>
                 </div>
                 <div><button class="buy" type="submit">Купить курс</button></div>
             </div>
