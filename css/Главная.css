@@ -1741,11 +1741,13 @@
      height: 56px;
      background: #FFFFFF;
      box-shadow: inset 4px 4px 10px rgba(0, 0, 0, 0.5);
+     /* border: 3px; */
      border-radius: 4px;
      flex: none;
      order: 1;
      flex-grow: 0;
      outline: none;
+     /* filter: blur(5px); */
  }
  
  .buy {
@@ -1856,6 +1858,7 @@
      min-height: 40px;
      flex-direction: row;
      align-items: center;
+     cursor: pointer;
  }
  
  .content {
@@ -1893,6 +1896,13 @@
          position: relative;
          justify-content: flex-start;
      }
+     .footer {
+         flex-direction: column;
+     }
+     .kek1 {
+         width: 340px;
+         height: 300px;
+     }
  }
  
  ::-webkit-scrollbar {
@@ -1902,6 +1912,7 @@
  ::-webkit-scrollbar-track {
      /* -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset; */
      background-color: #3B065E;
+     /* background: linear-gradient(180deg, #57048f, #fff, #57048f, #fff, #333333); */
  }
  
  ::-webkit-scrollbar-thumb {
