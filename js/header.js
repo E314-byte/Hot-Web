@@ -1,6 +1,6 @@
 const navigationChangeTheme = () => {
     const header = document.querySelector('#header')
-    const className = 'header-with-background';
+    const className = 'header';
 
     window.addEventListener('scroll', () => {
         if (window.pageYOffset > 0) {
