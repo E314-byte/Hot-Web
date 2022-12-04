@@ -10,3 +10,11 @@ const navigationChangeTheme = () => {
         }
     })
 }
+
+
+(function() {
+    const burger = document.getElementById('burger');
+    burger.addEventListener('click', () => {
+        burger.classList.toggle('burger_active');
+    });
+}());
